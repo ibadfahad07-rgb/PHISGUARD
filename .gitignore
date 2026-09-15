@@ -1,0 +1,64 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+coverage/
+*.symbols
+*.map.json
+
+# Editors / operating systems
+.idea/
+.vscode/
+*.iml
+*.log
+.DS_Store
+__MACOSX/
+
+# Android local files and generated output
+.gradle/
+.cxx/
+local.properties
+captures/
+GeneratedPluginRegistrant.java
+gradle-wrapper.jar
+gradlew
+gradlew.bat
+
+# Apple generated files
+Pods/
+.symlinks/
+DerivedData/
+xcuserdata/
+**/Flutter/ephemeral/
+**/Flutter/Generated.xcconfig
+**/Flutter/flutter_export_environment.sh
+**/Runner/GeneratedPluginRegistrant.*
+
+# Credentials, signing, and private service configuration
+.env
+.env.*
+key.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+*service-account*.json
+*service_account*.json
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+firebase.json
+
+# Packaged builds and archives
+*.apk
+*.aab
+*.ipa
+*.zip
